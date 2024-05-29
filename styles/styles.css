@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url(fonts/GlacialIndifference.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Libre Franklin-Bold';
+    src: url(fonts/LibreFranklin-Bold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Libre Franklin-ExtraBold';
+    src: url(fonts/LibreFranklin-ExtraBold.ttf) format('opentype');
+}
+
+
+
+.container1{
+    display:flex;
+    width: 100 vw;
+    justify-content: center;
+}
+
+.h1 {
+    font-family: 'Glacial Indifference';
+    letter-spacing: 7px;
+    font-size: 5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    display:inline-block;
+  }
+
+.flecha {
+    display:inline-block;
+    transform: rotate(60deg);
+    margin-right:50px;
+    margin-top:40px;
+  }
+
+.seccion{
+    padding-bottom:70px;
+}
+
+.h2 {
+    font-family: 'Libre Franklin-ExtraBold';
+    letter-spacing: 0.08em;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #13222c;
+    padding-bottom: 30px;
+  }
+
+.p{
+    font-family: 'Libre Franklin-Bold';
+    color:#13222c;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-size: 1.3rem;
+    text-align: justify;  
+  }
+
+.icono{
+    display:inline-flex;
+}
+
+.container2{
+    display:flex;
+    width: 100 vw;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #f787e8, #ece4e4, #4ce297);
+    animation: gradient-animation 18s ease infinite;
+    background-size: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
