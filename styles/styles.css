@@ -27,12 +27,12 @@ h2{
 
 h3{
     font-family: "Lexend", sans-serif;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 700;
     font-style: normal;
     text-align: center;
     color:black;
-    padding-bottom: 1.5rem; 
+    padding-bottom: 2rem;
 }
 
 p, label{
@@ -45,20 +45,21 @@ p, label{
     color:black;
 }
 
-.page1{
+.page1, .page3{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     border-radius: 20px;
-    padding:1.5rem;
+    padding: 2rem;
     margin-bottom: 2rem;
 }
 
 .page2{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     border-radius: 20px;
-    padding:1.5rem;
+    padding:2rem;
     margin-bottom: 2rem;
     display:flex;
     justify-content: space-around;
+    gap:60px;
 }
 
 .contenedor-icons{
@@ -75,7 +76,7 @@ form{
 textarea, input[type="text"], input[type="url"] {
     border: none;
     border-radius: 20px;
-    padding: 0.3rem;
+    padding: 0.7rem;
 }
 
 input[type="submit"] {
@@ -92,6 +93,68 @@ input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, .contenedor-tarjetas div:hover {
     background-color: rgba(131,58,180,1);
 }
+
+.page3 div {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    position:relative;
+}
+
+.page3 div span{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-family: "Lexend", serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.contenedor-tarjetas div span:hover {
+    background-color: rgba(253,29,29,1);
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+h4 {    
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.page3 div p{
+    color:white;
+    line-height: 20px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.page3 img {
+    height: 270px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;  
+}
+
+
