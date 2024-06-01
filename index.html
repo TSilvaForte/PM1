@@ -7,38 +7,62 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Proyecto M1</title>
 </head>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Caveat:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Caveat:wght@400..700&family=LXGW+WenKai+Mono+TC&family=Lexend:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
 <body>
-    <div class="gradient-background">
-        <div class="container1">
-        <img class="flecha" src="assets/icon-no-background.svg" alt="flecha" height="90px">
-        <h1 class="h1">Tamara Silva</h1>
+    <header>
+        <h1> Tamara Silva </h1>
+        <h2> Estudiante de Desarrollo Web Full Stack </h2>
+    </header>
+
+    <main>
+        <section class="page1">
+            <article>
+                <h3> Sobre mí</h3>
+                <p> Bienvenidos a mi sitio! Soy Tami, estudiante de Full Stack Web Dev en Henry. Algunos datos sobre mí: soy Economista y Magister en Finanzas; trabajé durante 12 años en multinacionales de distintos rubros, siempre en el área de Finanzas. Hace un tiempo empecé a pensar en darle un giro a mi carrera así que aquí estoy! Lista para aprender y descubrir el mundo de la Programación.</p>
+            </article>
+        </section>
+
+        <div class="page2">
+            <section class="tecnologias">
+                <article>
+                    <h3> Mis Tecnologías Favoritas </h3>
+                    <div class="contenedor-icons">
+                        <img src="assets/filetype-html.svg" alt="HTML" height="100">
+                        <img src="assets/filetype-css.svg" alt="CSS" height="100">
+                        <img src="assets/filetype-js.svg" alt="Javascript" height="100">
+                    </div>
+                </article>
+            </section>
+            <section class="actividades">
+                <article>
+                    <h3> Mis actividades favoritas </h3>
+                    <form>
+                        <label> Título </label>
+                        <input type="text" id="titulo"/>
+                        <label> Descripción </label>
+                        <textarea cols="30" rows="10" id="descripcion"></textarea>
+                        <label> URL Img </label>
+                        <input type="url" id="imgUrl"/>
+                        <input type="submit" id="buttonSubmit"/>
+                    </form>
+                </article>
+            </section>
         </div>
-        <div class="seccion">
-            <h2 class="h2">Sobre mí</h2><br>
-            <p class="p">Bienvenidos a mi sitio! Soy Tami, estudiante de Full Stack Web Dev en Henry. Algunos datos sobre mí: soy Economista y Magister en Finanzas; trabajé durante 12 años en multinacionales de distintos rubros, siempre en el área de Finanzas.<br>Las ganas de hacer algo distinto surgieron en la pandemia pero se profundizaron desde la llegada de mi primer bebé, Juani. Así que aquí estoy! Lista para aprender y descubrir el mundo de la Programación.</p>
-        </div>
-        <div class="seccion">
-            <h2 class="h2">Mis tecnologías favoritas</h2>
-                <div class="container2">
-                <div class="icono">
-                    <img src="assets/filetype-html.svg" alt="ícono HTML" height="200px">
-                </div>
-                <div class="icono">
-                    <img src="assets/filetype-css.svg" alt="ícono CSS" height="200px">
-                </div>
-                <div class="icono">
-                    <img src="assets/filetype-js.svg" alt="ícono Javascript" height="200px">
-                </div>
-                </div>
-        </div>
-        <div class="seccion">
-            <h2 class="h2">Mis actividades favoritas</h2>
-        </div>
-    </div>
+
+        <section class="page3">
+            <h3> Actividades </h3>
+            <article>
+                
+            </article>
+        </section>    
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <scipt src="scripts/index.js"></scipt>
 </body>
 </html>

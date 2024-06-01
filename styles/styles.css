@@ -1,95 +1,97 @@
-@font-face {
-    font-family: 'Glacial Indifference';
-    src: url(fonts/GlacialIndifference.otf) format('opentype');
+body{
+    background-color: black;
+    margin: 3rem 4rem; 
 }
 
-@font-face {
-    font-family: 'Libre Franklin-Bold';
-    src: url(fonts/LibreFranklin-Bold.ttf) format('opentype');
-}
-
-@font-face {
-    font-family: 'Libre Franklin-ExtraBold';
-    src: url(fonts/LibreFranklin-ExtraBold.ttf) format('opentype');
-}
-
-
-
-.container1{
-    display:flex;
-    width: 100 vw;
-    justify-content: center;
-}
-
-.h1 {
-    font-family: 'Glacial Indifference';
-    letter-spacing: 7px;
-    font-size: 5rem;
-    font-weight: 600;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 500;
+    font-style: italic;
     text-align: center;
-    display:inline-block;
-  }
-
-.flecha {
-    display:inline-block;
-    transform: rotate(60deg);
-    margin-right:50px;
-    margin-top:40px;
-  }
-
-.seccion{
-    padding-bottom:70px;
+    color:whitesmoke;
+    padding-bottom: 2rem;
+    letter-spacing: 3px;
 }
 
-.h2 {
-    font-family: 'Libre Franklin-ExtraBold';
-    letter-spacing: 0.08em;
-    font-size: 3rem;
-    font-weight: 900;
-    color: #13222c;
-    padding-bottom: 30px;
-  }
+h2{
+    font-family: "Ysabeau SC", serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color:whitesmoke;
+    margin-bottom:3rem;
+    letter-spacing: 3px;
+}
 
-.p{
-    font-family: 'Libre Franklin-Bold';
-    color:#13222c;
-    letter-spacing: 1.5px;
+h3{
+    font-family: "Lexend", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    padding-bottom: 1.5rem; 
+}
+
+p, label{
+    font-family: "Lexend", serif;
+    font-size: 1rem;
+    font-weight: 500;
     line-height: 30px;
-    font-size: 1.3rem;
-    text-align: justify;  
-  }
-
-.icono{
-    display:inline-flex;
+    font-style: normal;
+    text-align: justify;
+    color:black;
 }
 
-.container2{
+.page1{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 20px;
+    padding:1.5rem;
+    margin-bottom: 2rem;
+}
+
+.page2{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 20px;
+    padding:1.5rem;
+    margin-bottom: 2rem;
     display:flex;
-    width: 100 vw;
     justify-content: space-around;
-    padding-top:50px;
-    padding-bottom:50px;
 }
 
-.gradient-background {
-    background: linear-gradient(300deg, #f787e8, #ece4e4, #4ce297);
-    animation: gradient-animation 18s ease infinite;
-    background-size: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+.contenedor-icons{
+    display:flex;
+    justify-content: space-between;
+    padding-top:65px;
 }
 
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+form{
+    display:flex;
+    flex-direction: column;
 }
 
+textarea, input[type="text"], input[type="url"] {
+    border: none;
+    border-radius: 20px;
+    padding: 0.3rem;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(131,58,180,1);
+}
