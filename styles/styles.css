@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    margin: 3rem 4rem; 
+    margin: 4rem 3rem 1.5rem 3rem; 
 }
 
 h1{
@@ -62,7 +62,7 @@ p, label{
     gap:60px;
 }
 
-.contenedor-icons{
+.containericons{
     display:flex;
     justify-content: space-between;
     padding-top:65px;
@@ -77,6 +77,7 @@ textarea, input[type="text"], input[type="url"] {
     border: none;
     border-radius: 20px;
     padding: 0.7rem;
+    font-family: "Lexend", serif;
 }
 
 input[type="submit"] {
@@ -93,7 +94,7 @@ input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover, .contenedor-tarjetas div:hover {
+input[type="submit"]:hover, .containercards div:hover {
     background-color: rgba(131,58,180,1);
 }
 
@@ -121,11 +122,11 @@ input[type="submit"]:hover, .contenedor-tarjetas div:hover {
     font-weight: 800;
 }
 
-.contenedor-tarjetas div span:hover {
+.containercards div span:hover {
     background-color: rgba(253,29,29,1);
 }
 
-.contenedor-tarjetas {
+.containercards {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;

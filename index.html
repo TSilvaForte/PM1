@@ -28,7 +28,7 @@
             <section>
                 <article>
                     <h3> Mis Tecnologías Favoritas </h3>
-                    <div class="contenedor-icons">
+                    <div class="containericons">
                         <img src="assets/filetype-html.svg" alt="HTML" height="120">
                         <img src="assets/filetype-css.svg" alt="CSS" height="120">
                         <img src="assets/filetype-js.svg" alt="Javascript" height="120">
@@ -40,11 +40,11 @@
                     <h3> Mis actividades favoritas </h3>
                     <form>
                         <label> Título </label>
-                        <input type="text" id="titulo" maxlength="40"/>
+                        <input type="text" id="title" maxlength="40" required/>
                         <label> Descripción </label>
-                        <textarea cols="30" rows="7" id="descripcion" maxlength="180"></textarea>
+                        <textarea cols="30" rows="7" id="description" maxlength="180" required></textarea>
                         <label> URL Img </label>
-                        <input type="url" id="imgUrl"/>
+                        <input type="url" id="imgUrl" required/>
                         <input type="submit" id="buttonSubmit"/>
                     </form>
                 </article>
@@ -53,35 +53,18 @@
 
         <section class="page3">
             <h3> Actividades </h3>
-            <article class="contenedor-tarjetas">
-                <div>
-                    <h4> Salir a comer con amigos </h4> <span>X</span>
-                    <img src="https://www.lanacion.com.ar/resizer/v2/cuando-somos-muchos-no-siempre-es-facil-encontrar-UTH6QTN3INFWDH66V4RXW3IW7E.jpg?auth=bf4f314e59d58273c4acf960147b8df207ad5c22bf90aa654a48da355c55b65a&width=420&height=280&quality=70&smart=true" alt="comida con amigos">
-                    <p> Conocer lugares nuevos donde probar comidas diferentes a la cocina tradicional, y aprovechar para pasar un tiempo con mis amigos es una actividad que disfruto mucho</p>
-                </div>
-                <div>
-                    <h4> Tomar clases de pilates </h4> <span>X</span>
-                    <img src="https://www.latercera.com/resizer/Y97ROpDbvkFOgNwdV6yeqDMsmyQ=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/EQEROSFNFZEI5KRZRJW53BDBXI.jpeg" alt="practicar pilates">
-                    <p> Me gusta porque me ayuda a elongar el cuerpo además de fortalecer los músculos. Es una actividad que me hace bien a la salud física y mental </p>
-                </div>
-                <div>
-                    <h4> Llevar a mi bebé a matronatación </h4> <span>X</span>
-                    <img src="https://www.criarconsentidocomun.com/wp-content/uploads/2021/04/matronatacion.jpg" alt="natación mamá y bebé">
-                    <p> Es un momento único con mi bebé Juan Ignacio. Disfrutamos del contacto y de poder jugar juntos en el agua mientras él toma seguridad y aprende a desempeñarse en el agua </p>
-                </div>
-                <div>
-                    <h4> Pasar tiempo de calidad en familia </h4> <span>X</span>
-                    <img src=https://st3.depositphotos.com/12674628/16749/i/1600/depositphotos_167498252-stock-photo-family-lying-in-pile-on.jpg alt="familia con perros">
-                    <p> Cholo y Junior son mis dos mascotas y son como dos hijos más. Nos encanta pasar tiempo los cinco juntos, nos divertimos jugando a la pelota y paseando al aire libre </p>
-                </div>
+            <article class="containercards">
+
             </article>
         </section>    
     </main>
 
-    <footer>
+    <script src="scripts/index.js"></script>
 
-    </footer>
-
-    <scipt src="scripts/index.js"></scipt>
 </body>
+
+<footer>
+    <p style="color: white;">&copy; 2024 ProyectoM1. Todos los derechos reservados. | Diseñado con ♥ por Tami</p>
+</footer>
+
 </html>
